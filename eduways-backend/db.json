@@ -1,0 +1,267 @@
+{
+  "admins": [
+    {
+      "id": "1",
+      "name": "Jiyo Mathew Samuel",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "admin"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "1",
+      "name": "Rahul Sharma",
+      "email": "rahul@gmail.com",
+      "password": "rahul123",
+      "allowed": true,
+      "role": "teacher"
+    },
+    {
+      "id": "2",
+      "name": "Priya Nair",
+      "email": "priya@gmail.com",
+      "password": "priya123",
+      "allowed": true,
+      "role": "teacher"
+    },
+    {
+      "id": "3",
+      "name": "Arun Menon",
+      "email": "arun@gmail.com",
+      "password": "arun123",
+      "allowed": true,
+      "role": "teacher"
+    },
+    {
+      "id": "4",
+      "name": "Sneha Das",
+      "email": "sneha@gmail.com",
+      "password": "sneha123",
+      "allowed": false,
+      "role": "teacher"
+    },
+    {
+      "name": "Sreehari",
+      "email": "sreehari@gmail.com",
+      "password": "sree123",
+      "allowed": true,
+      "role": "teacher",
+      "id": "7aoFguTWNAY"
+    }
+  ],
+  "students": [
+    {
+      "id": "2",
+      "name": "Aravind Suresh",
+      "age": 21,
+      "course": "BCA",
+      "department": "Computer Applications",
+      "email": "aravind@gmail.com",
+      "phone": "9876543211",
+      "blocked": false,
+      "createdBy": "rahul@gmail.com",
+      "createdAt": "2025-01-12T10:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "name": "Surya Prakash",
+      "age": 22,
+      "course": "BCA",
+      "department": "Computer Applications",
+      "email": "surya@gmail.com",
+      "phone": "9876543212",
+      "blocked": false,
+      "createdBy": "priya@gmail.com",
+      "createdAt": "2025-01-15T11:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "name": "Basith Khan",
+      "age": 20,
+      "course": "BCOM",
+      "department": "Commerce",
+      "email": "basith@gmail.com",
+      "phone": "9876543213",
+      "blocked": false,
+      "createdBy": "priya@gmail.com",
+      "createdAt": "2025-02-01T09:30:00.000Z"
+    },
+    {
+      "id": "5",
+      "name": "Salman Ali",
+      "age": 21,
+      "course": "BCA",
+      "department": "Computer Applications",
+      "email": "salman@gmail.com",
+      "phone": "9876543214",
+      "blocked": false,
+      "createdBy": "arun@gmail.com",
+      "createdAt": "2025-02-05T08:00:00.000Z"
+    },
+    {
+      "id": "6",
+      "name": "Meera Pillai",
+      "age": 22,
+      "course": "MBA",
+      "department": "Business Administration",
+      "email": "meera@gmail.com",
+      "phone": "9876543215",
+      "blocked": false,
+      "createdBy": "arun@gmail.com",
+      "createdAt": "2025-02-10T10:00:00.000Z"
+    },
+    {
+      "id": "7",
+      "name": "Vishnu Raj",
+      "age": 20,
+      "course": "BSC",
+      "department": "Science",
+      "email": "vishnu@gmail.com",
+      "phone": "9876543216",
+      "blocked": true,
+      "createdBy": "rahul@gmail.com",
+      "createdAt": "2025-02-15T09:00:00.000Z"
+    },
+    {
+      "id": "8",
+      "name": "Anjali Menon",
+      "age": 23,
+      "course": "MCA",
+      "department": "Computer Applications",
+      "email": "anjali@gmail.com",
+      "phone": "9876543217",
+      "blocked": false,
+      "createdBy": "priya@gmail.com",
+      "createdAt": "2025-03-01T11:00:00.000Z"
+    },
+    {
+      "id": "9",
+      "name": "Rohit Varma",
+      "age": 21,
+      "course": "BBA",
+      "department": "Business Administration",
+      "email": "rohit@gmail.com",
+      "phone": "9876543218",
+      "blocked": false,
+      "createdBy": "arun@gmail.com",
+      "createdAt": "2025-03-05T08:30:00.000Z"
+    },
+    {
+      "id": "10",
+      "name": "Fathima Beevi",
+      "age": 20,
+      "course": "BCOM",
+      "department": "Commerce",
+      "email": "fathima@gmail.com",
+      "phone": "9876543219",
+      "blocked": true,
+      "createdBy": "rahul@gmail.com",
+      "createdAt": "2025-03-10T09:00:00.000Z"
+    },
+    {
+      "name": "Suryasevan",
+      "age": 19,
+      "course": "BCA",
+      "department": "Computer Applications",
+      "email": "suryasevan@gmail.com",
+      "phone": "9876543210",
+      "blocked": false,
+      "createdBy": "rahul@gmail.com",
+      "createdAt": "2026-05-11T08:06:24.005Z",
+      "id": "YV08aSEKW7U"
+    },
+    {
+      "name": "Reihan Anwar",
+      "age": 22,
+      "course": "BTEK",
+      "department": "Engineering",
+      "email": "reihan@gmail.com",
+      "phone": "9876543211",
+      "blocked": false,
+      "createdBy": "rahul@gmail.com",
+      "createdAt": "2026-05-11T11:10:07.899Z",
+      "id": "0jLK_yrtOKI"
+    }
+  ],
+  "courses": [
+    {
+      "id": "1",
+      "name": "BCA"
+    },
+    {
+      "id": "2",
+      "name": "BCOM"
+    },
+    {
+      "id": "3",
+      "name": "BBA"
+    },
+    {
+      "id": "4",
+      "name": "BSC"
+    },
+    {
+      "id": "5",
+      "name": "MCA"
+    },
+    {
+      "id": "6",
+      "name": "MBA"
+    },
+    {
+      "id": "7",
+      "name": "MCOM"
+    },
+    {
+      "name": "BTEK",
+      "id": "ep9Wbi6Od90"
+    },
+    {
+      "name": "MTEK",
+      "id": "W9cXzCzurHc"
+    },
+    {
+      "name": "BA English",
+      "id": "npfqbMALKe8"
+    },
+    {
+      "name": "BA History",
+      "id": "xWSW4uscNNM"
+    }
+  ],
+  "departments": [
+    {
+      "id": "1",
+      "name": "Computer Applications"
+    },
+    {
+      "id": "2",
+      "name": "Commerce"
+    },
+    {
+      "id": "3",
+      "name": "Business Administration"
+    },
+    {
+      "id": "5",
+      "name": "Arts"
+    },
+    {
+      "id": "6",
+      "name": "Mathematics"
+    },
+    {
+      "id": "7",
+      "name": "Engineering"
+    },
+    {
+      "name": "Physics",
+      "id": "6CMeqvEWeTA"
+    },
+    {
+      "name": "Electronics",
+      "id": "KxIgPXjYgSU"
+    }
+  ]
+}

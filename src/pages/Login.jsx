@@ -11,7 +11,6 @@ export default function Login() {
   const navigate = useNavigate();
   const [form, setForm] = useState({ email: "", password: "" });
   const [loading, setLoading] = useState(false);
-  const [showIntro, setShowIntro] = useState(false);
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -45,12 +44,13 @@ export default function Login() {
   return (
     <div className="min-h-screen flex flex-col lg:flex-row">
 
-      <div className={`lg:flex w-full lg:w-1/2 bg-slate-900 flex-col justify-center items-start px-8 sm:px-16 py-12 ${showIntro ? "flex" : "hidden lg:flex"}`}>
-        <div className="flex items-center gap-4 mb-8">
+      {/* Intro section — shown on top on mobile, left side on desktop */}
+      <div className="w-full lg:w-1/2 bg-slate-900 flex flex-col justify-center items-start px-8 sm:px-16 py-10 lg:py-12">
+        <div className="flex items-center gap-4 mb-6 lg:mb-8">
           <Logo size={48} />
           <h1 className="text-3xl sm:text-4xl font-bold text-white leading-tight">Eduways</h1>
         </div>
-        <p className="text-slate-400 text-base sm:text-lg mb-8 leading-relaxed max-w-md">
+        <p className="text-slate-400 text-base sm:text-lg mb-6 lg:mb-8 leading-relaxed max-w-md">
           A simple and powerful student management system for admins and teachers.
         </p>
         <div className="space-y-4 w-full max-w-md">
@@ -65,34 +65,13 @@ export default function Login() {
             </div>
           ))}
         </div>
-        <div className="mt-12 pt-8 border-t border-slate-700 w-full max-w-md">
+        <div className="mt-8 lg:mt-12 pt-6 lg:pt-8 border-t border-slate-700 w-full max-w-md">
           <p className="text-slate-500 text-xs">© 2025 Eduways. All rights reserved.</p>
         </div>
-
-        <button
-          onClick={() => setShowIntro(false)}
-          className="lg:hidden mt-8 text-slate-400 hover:text-white text-sm underline underline-offset-2 transition"
-        >
-          ← Back to Sign In
-        </button>
       </div>
 
-      <div className={`w-full lg:w-1/2 flex flex-col items-center justify-center bg-slate-50 px-6 sm:px-8 py-12 min-h-screen lg:min-h-0 ${showIntro ? "hidden lg:flex" : "flex"}`}>
+      <div className="w-full lg:w-1/2 flex flex-col items-center justify-center bg-slate-50 px-6 sm:px-8 py-12">
         <div className="w-full max-w-md">
-
-          <div className="lg:hidden flex items-center justify-between mb-8">
-            <div className="flex items-center gap-3">
-              <Logo size={36} />
-              <h1 className="text-xl font-bold text-slate-800">Eduways</h1>
-            </div>
-            <button
-              onClick={() => setShowIntro(true)}
-              className="text-xs text-slate-500 hover:text-slate-800 underline underline-offset-2 transition"
-            >
-              About →
-            </button>
-          </div>
-
           <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8">
             <div className="mb-7">
               <h2 className="text-2xl font-bold text-slate-800">Welcome back</h2>
@@ -134,6 +113,7 @@ export default function Login() {
           </div>
         </div>
       </div>
+
     </div>
   );
 }

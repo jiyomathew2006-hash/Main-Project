@@ -2,7 +2,7 @@
   "name": "student-management",
   "version": "1.0.0",
   "description": "Student Management System",
-  "homepage": "https://<YOUR_GITHUB_USERNAME>.github.io/Eduways",
+  "homepage": "https://jiyomathew2006-hash.github.io/Main-Project",
   "main": "server.js",
   "scripts": {
     "dev": "vite",
